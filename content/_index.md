@@ -1,6 +1,5 @@
 ---
-# Leave the homepage title empty to use the site title
-title:
+title: 
 date: 2022-10-24
 type: landing
 
@@ -8,21 +7,22 @@ sections:
   - block: hero
     content:
       title: |
-        MARNEA
-        Research Group
-      image:
-        filename: welcome.jpg
+        MARNEA Research Group
       text: |
-        <br>
-    The**Advanced Materials Research Network for Energy Applications**is a collaborative group  focuses on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications
-The network essentially aims to promote cooperation and create a dynamic of exchange between the involved researchers. The pooling of knowledge and know-how through this exchange network will allow the different actors to improve their efficiency, whether in solving technical problems in the development of materials or in the development of new technological applications.
-.
-  
+        The **Advanced Materials Research Network for Energy Applications** is a collaborative group focused on the development of advanced materials, including their synthesis, characterization, and theoretical modeling for energy uses.
+
+        This network aims to foster cooperation and dynamic exchange among researchers to improve problem-solving and create new technological innovations.
+      background:
+        image:
+          filename: welcome.jpg
+        text_color_light: true
+    design:
+      fullscreen: true
+      overlay: true
+
   - block: collection
     content:
       title: Latest News
-      subtitle:
-      text:
       count: 5
       filters:
         author: ''
@@ -36,31 +36,30 @@ The network essentially aims to promote cooperation and create a dynamic of exch
     design:
       view: card
       columns: '1'
-  
+
   - block: markdown
     content:
-      title:
-      subtitle: ''
-      text:
+      title: Join Our Research Network
+      text: |
+        We welcome collaborators and researchers working in energy materials, nanotechnology, catalysis, and sustainability. Together, we build solutions for a cleaner and more efficient future.
     design:
       columns: '1'
       background:
         image: 
           filename: coders.jpg
           filters:
-            brightness: 1
-          parallax: false
+            brightness: 0.6
+          parallax: true
           position: center
           size: cover
           text_color_light: true
       spacing:
-        padding: ['20px', '0', '20px', '0']
+        padding: ['60px', '0', '60px', '0']
       css_class: fullscreen
 
   - block: collection
     content:
       title: Latest Preprints
-      text: ""
       count: 5
       filters:
         folders:
@@ -72,8 +71,7 @@ The network essentially aims to promote cooperation and create a dynamic of exch
 
   - block: markdown
     content:
-      title:
-      subtitle:
+      title: Our Team
       text: |
         {{% cta cta_link="./people/" cta_text="Meet the team →" %}}
     design:
