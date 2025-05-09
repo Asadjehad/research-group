@@ -15,7 +15,7 @@ sections:
       text: |
         <br>
         
-        The**Advanced Materials Research Network for Energy Applications**is a collaborative group  focuses on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications
+    The**Advanced Materials Research Network for Energy Applications**is a collaborative group  focuses on the development of advanced materials, namely the synthesis, characterisation and theoretical understanding of functional materials able to be used in energy applications
 The network essentially aims to promote cooperation and create a dynamic of exchange between the involved researchers. The pooling of knowledge and know-how through this exchange network will allow the different actors to improve their efficiency, whether in solving technical problems in the development of materials or in the development of new technological applications.
 .
   
